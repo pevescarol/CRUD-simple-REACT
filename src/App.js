@@ -1,12 +1,8 @@
 import React, {Component} from 'react';
 import logo from './assets/images/logo.svg';
 import './assets/css/App.css';
-import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faEdit, faTrashAlt} from '@fortawesome/free-solid-svg-icons';
 import {Button, Container, FormGroup, Modal, ModalBody, ModalFooter, ModalHeader, Table} from 'reactstrap';
-import { render } from '@testing-library/react';
 
 const data = [
   { id: 1, personaje: 'Daria', serie: 'Daria'},
